@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+<shortcut
+    android:enabled="true"
+    android:icon="@drawable/ic_add_24dp"
+
+    android:shortcutId="compose"
+    android:shortcutLongLabel="@string/shortcut_long_label"
+    android:shortcutShortLabel="@string/shortcut_short_label" >
+
+    <intent
+        android:targetClass="com.example.shortcut.MainActivity"
+        android:targetPackage="com.example.shortcut"
+        android:action="android.intent.action.ADD_FAVORITE"
+        />
+</shortcut>
+
+</shortcuts>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
